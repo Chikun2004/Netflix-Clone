@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.body{
+    width: 100%;
+    height: 100%;
+    color:white ;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container::before{
+    content: "";
+    background: url(abc.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+    filter: contrast(120px);
+}
+.navbar{
+display: flex;
+height: 100px;
+}
+.navbar .left-nav{
+    height: 100%;
+    display: flex;
+    float:left
+}
+.navbar .left-nav img{
+    height: 100px;
+    position: absolute;
+    left: 140px;
+}
+.navbar .right-nav{
+   display: flex;
+   height: 100px;
+   float: right;
+   position: absolute;
+   right: 50px;
+   color: black;
+}
+.container .navbar .right-nav .language{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 8px 10px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.container .navbar .right-nav #button{
+padding: 8px 12px;
+margin-top: 10px;
+margin: auto;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+color: black;
+background-color: crimson;
+}
+.container .navbar .right-nav a{
+    text-decoration: none;
+    color: black;
+}
+.para{
+    color: white;
+    display: flex;
+    padding-top: 180px;
+    padding-left: 250px;
+}
+.para #h1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'PT Serif', serif;
+
+}
+.para #h2{
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+.para #h3
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    text-align: center;
+    margin-top: 10px;
+}
+input{
+    /* transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s; */
+    width: 180px;
+    color: transparent;
+    line-height: 1.5rem;
+    width: 400px;
+    height: 58px;
+    margin-left: 220px;
+}
+.btn{
+    color: white;
+    background-color: rgb(193, 17, 25);
+    width: 200px;
+    height: 58px;
+    font-size: 22px;
+    line-height: 1.5rem;
+    margin-left: 6px;
+}
